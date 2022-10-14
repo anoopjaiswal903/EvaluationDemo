@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD STUDENT</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <div id="InputBox">
+        <table>
+            <form action="" name="myform"></form>
+            <th colspan="2">ADD STUDENT DETAILS</th>
+            <tr>
+                <td>Name</td>
+                <td><input id="name" type="name" placeholder="NAME" name="name" ></td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td><input id="Class"  type="tel" placeholder="CLASS" name="Class" ></td>
+            </tr>
+            <tr>
+                <td>RollNum</td>
+                <td><input id="rollnum" type="tel"   placeholder="ROLLNUM" name="rollnum"></td>
+            </tr>
+            <tr>
+                <td ><button  id="entry" onclick="formValidate()" value="Submit">SUBMIT</button></td>
+                <td ><button  id="reset" onclick="resetForm()">RESET</button></td>
+            </tr>
+            
+            </form>
+        </table>
+    </div>
+
+    <div id="displayBox">
+
+        <table id="display" border="1">
+            <th>NAME</th>
+            <th>CLASS</th>
+            <th>ROLLNUM</th>
+            <th>EDIT/DEL</th>
+            
+         </table>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
